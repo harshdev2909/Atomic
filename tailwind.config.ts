@@ -58,7 +58,8 @@ export default {
   		},
   		animation: {
   			ripple: 'ripple var(--duration,2s) ease calc(var(--i, 0)*.2s) infinite',
-  			gradient: 'gradient 8s linear infinite'
+  			gradient: 'gradient 8s linear infinite',
+  			grid: 'grid 15s linear infinite'
   		},
   		keyframes: {
   			ripple: {
@@ -72,6 +73,14 @@ export default {
   			gradient: {
   				to: {
   					backgroundPosition: 'var(--bg-size) 0'
+  				}
+  			},
+  			grid: {
+  				'0%': {
+  					transform: 'translateY(-50%)'
+  				},
+  				'100%': {
+  					transform: 'translateY(0)'
   				}
   			}
   		}

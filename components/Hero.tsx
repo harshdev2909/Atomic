@@ -4,11 +4,12 @@ import BoxReveal from "./ui/box-reveal";
 import { ChevronRight } from "lucide-react";
 import { cn } from "@/lib/utils";
 import AnimatedGradientText from "./ui/animated-gradient-text";
-
+import LetterPullup from "./ui/letter-pullup";
+ 
 export function RippleDemo() {
   return (
-    <div className="relative bg-black flex h-[700px] w-full flex-col items-center justify-center overflow-hidden rounded-lg border bg-background md:shadow-xl">
-      <div >
+    <div className="relative bg-black flex h-[800px] w-full flex-col items-center justify-center overflow-hidden  ">
+      <div>
         {/* <NavbarDemo/> */}
         <BoxReveal boxColor={"#5046e6"} duration={0.5}>
         <SparklesText text="Atomic Media" />
@@ -36,6 +37,24 @@ export function RippleDemo() {
         <ChevronRight className="ml-1 size-3 transition-transform duration-300 ease-in-out group-hover:translate-x-0.5" />
       </AnimatedGradientText>
     </div>
+    <div className="mb-3 sm:p-0 px-4 w-full group relative items-center mt-2">
+          <h1
+          // ref={titleRef}
+          className="text-white lg:text-[60px] sm:text-[40px] text-[20px] font-extrabold text-center"
+          >
+          we specialize in
+          <span className="relative text-[#E4003A] my-0 mx-[15px] inline-block">
+            <span className="absolute top-0 left-0 w-full h-full bg-[#E4003A] opacity-10 -rotate-1"></span>
+            designing, 
+          </span>
+          building,
+          <span className="relative text-[#AF47D2] my-0 mx-[15px] inline-block">
+            <span className="absolute top-0 left-0 w-full h-full bg-[#AF47D2] opacity-10 rotate-3"></span>
+            shaping and scaling.
+          </span>
+          </h1>
+          </div>
+      
       <Ripple />
     </div>
   );
