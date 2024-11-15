@@ -1,3 +1,4 @@
+import { FeaturesSectionDemo } from "@/components/Features";
 import { RippleDemo } from "@/components/Hero";
 import { NavbarDemo } from "@/components/Nav";
 import { RetroGridDemo } from "@/components/Section";
@@ -10,6 +11,7 @@ export default function Home() {
      <NavbarDemo/>
       <RippleDemo/>
       <RetroGridDemo/>
+      <FeaturesSectionDemo/>
     </div>
   )
 }

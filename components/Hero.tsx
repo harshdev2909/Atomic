@@ -18,7 +18,7 @@ export function RippleDemo() {
         <div className="mt-6">
           <p>
             -&gt; 
-            <span className="font-semibold text-[#5046e6]"> Building Digital Product, Brand and Experience</span>, 
+            <span className="font-semibold text-[#5046e6]"> Building Digital Product, Brand and Experience.</span>
             . 
           </p>
         </div>
