@@ -13,6 +13,8 @@ import {
     IconNewSection,
     IconTerminal2,
 } from "@tabler/icons-react";
+import { FaInstagram } from "react-icons/fa";
+import { CiLinkedin } from "react-icons/ci";
 function Footer() {
     const links = [
         {
@@ -24,16 +26,16 @@ function Footer() {
         },
 
         {
-            title: "Products",
+            title: "Instagram",
             icon: (
-                <IconTerminal2 className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+                <FaInstagram className="h-full w-full text-neutral-500 dark:text-neutral-300" />
             ),
             href: "#",
         },
         {
             title: "Components",
             icon: (
-                <IconNewSection className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+                <CiLinkedin className="h-full w-full text-neutral-500 dark:text-neutral-300" />
             ),
             href: "#",
         },
