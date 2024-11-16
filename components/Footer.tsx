@@ -10,8 +10,6 @@ import {
     IconBrandX,
     IconExchange,
     IconHome,
-    IconNewSection,
-    IconTerminal2,
 } from "@tabler/icons-react";
 import { FaInstagram } from "react-icons/fa";
 import { CiLinkedin } from "react-icons/ci";
