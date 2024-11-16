@@ -1,4 +1,5 @@
 import { cn } from "@/lib/utils";
+import React from "react"; // import React for type annotations
 
 interface MarqueeProps {
   className?: string;
@@ -7,7 +8,8 @@ interface MarqueeProps {
   children?: React.ReactNode;
   vertical?: boolean;
   repeat?: number;
-  [key: string]: any;
+  // Use React.HTMLProps<HTMLDivElement> for any extra props
+  [key: string]: string | boolean | number | React.ReactNode;
 }
 
 export default function Marquee({
@@ -21,7 +23,7 @@ export default function Marquee({
 }: MarqueeProps) {
   return (
     <div
-      {...props}
+      {...props} // Spread props into the div element
       className={cn(
         "group flex overflow-hidden p-2 [--duration:40s] [--gap:1rem] [gap:var(--gap)]",
         {

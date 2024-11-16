@@ -5,9 +5,6 @@ import { NavbarDemo } from "@/components/Nav";
 import { MarqueeDemo } from "@/components/Review";
 import { RetroGridDemo } from "@/components/Section";
 
-
-import Image from "next/image";
-
 export default function Home() {
   return (
     <div className="bg-black" >
