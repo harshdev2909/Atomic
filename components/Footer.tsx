@@ -1,8 +1,4 @@
-// import { SiteLinksData } from '@/data/siteLinks'
-import Link from 'next/link'
 import React from 'react'
-import getInTouch from "../../public/getInTouchImage.svg"
-import Image from 'next/image'
 import { FloatingDock } from "@/components/ui/floating-dock";
 import {
     IconBrandGithub,

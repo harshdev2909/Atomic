@@ -1,6 +1,6 @@
 "use client";
 import { HoverEffect } from "./ui/card-hover-effect";
-import { WavyBackground } from "./ui/wavy-background";
+
 export function RetroGridDemo() {
   return (
     <div className="relative mt-10px bg-black mb-15  flex h-full w-full flex-col items-center   rounded-lg ">

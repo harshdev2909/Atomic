@@ -4,7 +4,7 @@ import { RippleDemo } from "@/components/Hero";
 import { NavbarDemo } from "@/components/Nav";
 import { MarqueeDemo } from "@/components/Review";
 import { RetroGridDemo } from "@/components/Section";
-import { ShineBorderDemo } from "@/components/Stats";
+
 
 import Image from "next/image";
 
@@ -15,7 +15,7 @@ export default function Home() {
       <RippleDemo/>
       <RetroGridDemo/>
       <FeaturesSectionDemo/>
-      {/* <ShineBorderDemo/> */}
+      
       <MarqueeDemo/>
       <Footer/>
     </div>
