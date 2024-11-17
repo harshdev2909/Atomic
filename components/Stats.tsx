@@ -8,7 +8,7 @@ export function ShineBorderDemo() {
       color={["#A07CFE", "#FE8FB5", "#FFBE7B"]}
     >
       <span className="pointer-events-none whitespace-pre-wrap bg-gradient-to-b  bg-clip-text text-center text-8xl font-semibold leading-none text-transparent from-white to-slate-900/10">
-        Shine Border
+        Shine Border.
       </span>
     </ShineBorder>
     </div>
